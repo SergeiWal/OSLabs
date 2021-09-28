@@ -5,4 +5,5 @@ int main()
 {
 	system("tasklist");
 	std::cout << std::endl;
+	system("pause");
 }
