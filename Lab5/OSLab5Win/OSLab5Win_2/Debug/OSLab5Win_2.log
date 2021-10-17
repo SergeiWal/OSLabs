@@ -1,0 +1,14 @@
+﻿  OSLab5Win_2.cpp
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(57,35): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(57,35): message : рекомендуется использовать "%lld" в строке форматирования
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(57,35): message : рекомендуется использовать "%I64d" в строке форматирования
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(58,49): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD_PTR", возможна потеря данных
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(72,39): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(72,39): message : рекомендуется использовать "%lld" в строке форматирования
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(72,39): message : рекомендуется использовать "%I64d" в строке форматирования
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(73,115): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(78,43): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(78,43): message : рекомендуется использовать "%lld" в строке форматирования
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(78,43): message : рекомендуется использовать "%I64d" в строке форматирования
+E:\GIT\OSLabs\Lab5\OSLab5Win\OSLab5Win_2\OSLab5Win_2.cpp(81,119): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  OSLab5Win_2.vcxproj -> E:\GIT\OSLabs\Lab5\OSLab5Win\Debug\OSLab5Win_2.exe
