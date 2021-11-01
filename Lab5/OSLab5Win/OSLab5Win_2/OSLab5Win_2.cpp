@@ -7,7 +7,7 @@ void CreateProccersWithPriority(LPCWSTR an, STARTUPINFO si, int priority)
     PROCESS_INFORMATION pi;
     if (priority == 1)
     {
-        if (CreateProcess(an, NULL, NULL, NULL, FALSE, CREATE_NEW_CONSOLE | IDLE_PRIORITY_CLASS, NULL, NULL, &si, &pi))
+        if (CreateProcess(an, NULL, NULL, NULL, FALSE, CREATE_NEW_CONSOLE | BELOW_NORMAL_PRIORITY_CLASS, NULL, NULL, &si, &pi))
             std::cout << "-- Process OSLab5Win_2 created\n";
         else  std::cout << "-- Process OSLab5Win_2 not created\n";
     }

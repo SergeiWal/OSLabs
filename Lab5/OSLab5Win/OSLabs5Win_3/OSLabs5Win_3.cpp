@@ -96,13 +96,13 @@ void SetPriorityThread(HANDLE hp, int priority)
     switch (priority)
     {
     case 1: SetThreadPriority(hp, THREAD_PRIORITY_IDLE); break;
-    case 2: SetPriorityClass(hp, THREAD_PRIORITY_LOWEST); break;
-    case 3: SetPriorityClass(hp, THREAD_PRIORITY_BELOW_NORMAL); break;
-    case 4: SetPriorityClass(hp, THREAD_PRIORITY_NORMAL); break;
-    case 5: SetPriorityClass(hp, THREAD_PRIORITY_ABOVE_NORMAL); break;
+    case 2: SetThreadPriority(hp, THREAD_PRIORITY_LOWEST); break;
+    case 3: SetThreadPriority(hp, THREAD_PRIORITY_BELOW_NORMAL); break;
+    case 4: SetThreadPriority(hp, THREAD_PRIORITY_NORMAL); break;
+    case 5: SetThreadPriority(hp, THREAD_PRIORITY_ABOVE_NORMAL); break;
     case 6: SetThreadPriority(hp, THREAD_PRIORITY_HIGHEST); break;
     case 7: SetThreadPriority(hp, THREAD_PRIORITY_TIME_CRITICAL); break;
-    default:  SetPriorityClass(hp, THREAD_PRIORITY_NORMAL); break;
+    default:  SetThreadPriority(hp, THREAD_PRIORITY_NORMAL); break;
     }
 }
 
